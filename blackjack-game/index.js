@@ -12,3 +12,17 @@ if (sum === 21) {
 } else {
     console.log("You're out of the game! 😭")
 }
+
+
+let haveEaten = true
+
+function eat() {
+    if (haveEaten) {
+        console.log("I'm not hungry")
+        haveEaten = false
+    } else {
+        console.log("I'm hungry")
+    }
+}
+eat()
+eat()
