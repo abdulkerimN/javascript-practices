@@ -13,3 +13,11 @@ h1 {
 #message-el {
     font-style: italic;
 }
+
+#start {
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
