@@ -17,7 +17,7 @@ function startGame() {
 function renderGame() {
     // console.log("Starting the game...");
     // render out firstCard and secondCard
-    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1];
+    cardsEl.textContent = "Cards: " + cards;
     // render out all the cards we have we use Array which is list of items
     sumEl.textContent = "Sum: " + sum;
     if (sum < 21) {
@@ -44,6 +44,7 @@ function newCard() {
     // console.log("Drawing a new card from the deck!")
     let card = 2
     sum += card
+    cards.push(card)
     renderGame()
 }
 // let haveEaten = true
