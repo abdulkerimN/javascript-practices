@@ -45,6 +45,7 @@ function newCard() {
     let card = 2
     sum += card
     cards.push(card)
+    console.log(cards)
     renderGame()
 }
 // let haveEaten = true
