@@ -31,6 +31,11 @@ startGame();
 console.log(message);
 console.log(hasBlackJack);
 console.log(isAlive);
+
+
+function newCard() {
+    console.log("Drawing a new card from the deck!")
+}
 // let haveEaten = true
 
 // function eat() {
