@@ -7,3 +7,9 @@ let message = ["Hey, how are you?", "I'm fine, thanks!", "What about you?", "i a
 for (let i = 0; i < message.length; i += 1) {
     console.log(message[i])
 }
+
+let cards = [7, 3, 9]
+
+for (let i = 0; i < cards.length; i += 1) {
+    console.log(cards[i])
+}
